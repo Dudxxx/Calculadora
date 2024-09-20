@@ -1,9 +1,5 @@
-import Customer from "./Customer";
+import Display from "./display";
+let a: number = 20
 
-const c1 = new Customer();
-c1.name = 'Eduardo Pinheiro Schimidt'
-c1.age = 16
-c1.email = 'schimidt@alunos.utfpr.edu.br'
-c1.birthday = new Date(2024, 11, 6)
-
-console.log(c1.age)
+const d1 = new Display();
+d1.showNumber(a)
